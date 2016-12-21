@@ -1,0 +1,10 @@
+bob = BlankEngine::Person.new(bob)
+bob = Engine::Person.new(bob)
+bob = Person.new(bob)
+bob = Person.new
+sam = Person.new("sam")
+bob.name = bob
+bob.name = "bob"
+bob
+cd ..
+exit
